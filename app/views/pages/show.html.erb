@@ -1,0 +1,37 @@
+<script type="text/javascript">
+
+
+$(document).ready(function(){
+
+  $.ajax({
+    url: 'http://api.openweathermap.org/data/2.5/weather?lat=-37.864&lon=144.982&APPID=e6b9f373890262fb5f87cd9362069823',
+    method: 'get'
+    // data: { lat: pos.lat,
+    //         lng: pos.lng
+    //       }
+    }).done(function(data){
+      console.log(data.weather);
+    });
+
+
+
+});
+
+</script>
+
+<div>Weather PIC</div>
+<div>DATE - TODAY</div>
+<div>Temperature</div>
+
+<h1><%=@spot.name%></h1>
+
+<p>Type of fish: <%=@spot.fish%></p>
+
+<% my_url = "http://maps.google.com/maps/api/staticmap?size=1000x850&sensor=false&zoom=6" %>
+<% my_url += "&markers=#{@spot['latitude']}%2C#{@spot['longitude']}" %>
+<% my_url += '&key=AIzaSyBn7aVoJ5DG6o1oYaDdc8XAsApqlAtHaTg' %>
+<%= image_tag my_url %>
+
+<%= form_tag '/', method: :get do %>
+  <button> Main Page </button>
+<% end %>

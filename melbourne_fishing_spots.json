@@ -1,0 +1,476 @@
+[
+ {
+   "Location": "St Kilda, St Kilda",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.864,
+   "Longitude": 144.982
+ },
+ {
+   "Location": "Yarra River, Port Melbourne",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.823889,
+   "Longitude": 144.911111
+ },
+ {
+   "Location": "Maribyrnong River, West Melbourne",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.81027,
+   "Longitude": 144.934473
+ },
+ {
+   "Location": "Patterson River, Bonbeach",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.070348,
+   "Longitude": 145.128965
+ },
+ {
+   "Location": "Carrum, Carrum",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.076007,
+   "Longitude": 145.12049
+ },
+ {
+   "Location": "Altona to Williamstown, Altona",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.871206,
+   "Longitude": 144.830146
+ },
+ {
+   "Location": "Bemm River, Bemm River",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.75901,
+   "Longitude": 148.960612
+ },
+ {
+   "Location": "Metung, Boole Poole",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.878873,
+   "Longitude": 147.858789
+ },
+ {
+   "Location": "Mitchell River, East Bairnsdale",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.81807,
+   "Longitude": 147.622204
+ },
+ {
+   "Location": "Maramingo Creek, Genoa",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.432356,
+   "Longitude": 149.630868
+ },
+ {
+   "Location": "Gipsy Point, Gipsy Point",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.483599,
+   "Longitude": 149.673809
+ },
+ {
+   "Location": "Lake Victoria, Goon Nure",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.050139,
+   "Longitude": 147.577321
+ },
+ {
+   "Location": "Lake Tyers, Lake Tyers",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.834508,
+   "Longitude": 148.119607
+ },
+ {
+   "Location": "Mallacoota Inlet, Mallacoota",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.533333,
+   "Longitude": 149.783333
+ },
+ {
+   "Location": "Marlo, Marlo",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.75566,
+   "Longitude": 148.5275
+ },
+ {
+   "Location": "Nicholson River, Nicholson",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.795633,
+   "Longitude": 147.752917
+ },
+ {
+   "Location": "Lakes Entrance, Nyerimilang",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.878523,
+   "Longitude": 147.925587
+ },
+ {
+   "Location": "Tambo River, Swan Reach",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.823424,
+   "Longitude": 147.862759
+ },
+ {
+   "Location": "Tamboon Inlet, Tamboon",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.757773,
+   "Longitude": 149.130009
+ },
+ {
+   "Location": "Wallagaraugh River, Wallagaraugh",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.451632,
+   "Longitude": 149.693012
+ },
+ {
+   "Location": "Wingan Inlet, Wingan River",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.740234,
+   "Longitude": 149.498563
+ },
+ {
+   "Location": "Dimboola, Dimboola",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -36.457243,
+   "Longitude": 142.023225
+ },
+ {
+   "Location": "Konong Wootong Reservoir, Konong Wootong",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.494508,
+   "Longitude": 141.6505
+ },
+ {
+   "Location": "Lake Bolac, Lake Bolac",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.709334,
+   "Longitude": 142.837543
+ },
+ {
+   "Location": "Lake Wartook, Zumsteins",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.080833,
+   "Longitude": 142.4525
+ },
+ {
+   "Location": "Goulburn River, Acheron",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.276808,
+   "Longitude": 145.716026
+ },
+ {
+   "Location": "Omeo Valley, Anglers Rest",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -36.99557,
+   "Longitude": 147.511508
+ },
+ {
+   "Location": "Lake Guy, Bogong",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -36.802421,
+   "Longitude": 147.226113
+ },
+ {
+   "Location": "Lake Buffalo, Buffalo",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -36.727379,
+   "Longitude": 146.664011
+ },
+ {
+   "Location": "Lake Dartmouth, Dartmouth",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -36.62543,
+   "Longitude": 147.615575
+ },
+ {
+   "Location": "Eildon Pondage, Eildon",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.229516,
+   "Longitude": 145.919282
+ },
+ {
+   "Location": "Lower Mitta Mitta, Eskdale",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -36.475341,
+   "Longitude": 147.350797
+ },
+ {
+   "Location": "Falls Creek, Falls Creek",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -36.865881,
+   "Longitude": 147.28698
+ },
+ {
+   "Location": "Lake Eildon, Lake Eildon",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.120044,
+   "Longitude": 145.896887
+ },
+ {
+   "Location": "Nariel Creek, Nariel Valley",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -36.34145,
+   "Longitude": 147.797897
+ },
+ {
+   "Location": "Kiewa River, Running Creek",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -36.531357,
+   "Longitude": 147.047962
+ },
+ {
+   "Location": "Rubicon River, Thornton",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.249979,
+   "Longitude": 145.760829
+ },
+ {
+   "Location": "Snapper Spots, Crib Point",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.372303,
+   "Longitude": 145.225182
+ },
+ {
+   "Location": "Elephant Triangle, French Island",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.348434,
+   "Longitude": 145.364914
+ },
+ {
+   "Location": "Middle Spit, French Island",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.39103,
+   "Longitude": 145.390534
+ },
+ {
+   "Location": "Mosquito Channel, French Island",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.375566,
+   "Longitude": 145.371716
+ },
+ {
+   "Location": "Portsea to Point Nepean, Portsea",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.313187,
+   "Longitude": 144.695826
+ },
+ {
+   "Location": "Corner Inlet, Foster",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.783333,
+   "Longitude": 146.333333
+ },
+ {
+   "Location": "Tarwin River, Middle Tarwin",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.679686,
+   "Longitude": 145.924594
+ },
+ {
+   "Location": "Port Albert, Port Albert",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.665278,
+   "Longitude": 146.688333
+ },
+ {
+   "Location": "Shallow Inlet, Sandy Point",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.816667,
+   "Longitude": 146.166667
+ },
+ {
+   "Location": "Cowes to Cat Bay, Ventnor",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.509442,
+   "Longitude": 145.172509
+ },
+ {
+   "Location": "Anderson Inlet, Venus Bay",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.652348,
+   "Longitude": 145.785632
+ },
+ {
+   "Location": "Venus Bay, Venus Bay",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.683333,
+   "Longitude": 145.8
+ },
+ {
+   "Location": "Anglesea, Anglesea",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.409664,
+   "Longitude": 144.182517
+ },
+ {
+   "Location": "Apollo Bay, Apollo Bay",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.75,
+   "Longitude": 143.65
+ },
+ {
+   "Location": "Lake Bullen Merri, Camperdown",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.244615,
+   "Longitude": 143.105026
+ },
+ {
+   "Location": "Aire River, Glenaire",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.779703,
+   "Longitude": 143.469729
+ },
+ {
+   "Location": "Lake Purrumbete, Koallah",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.282505,
+   "Longitude": 143.23421
+ },
+ {
+   "Location": "Lorne, Lorne",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.536656,
+   "Longitude": 143.971548
+ },
+ {
+   "Location": "Nelson, Nelson",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.05,
+   "Longitude": 141.016667
+ },
+ {
+   "Location": "Peterborough, Peterborough",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.581127,
+   "Longitude": 142.861874
+ },
+ {
+   "Location": "Port Fairy, Port Fairy",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.381012,
+   "Longitude": 142.229291
+ },
+ {
+   "Location": "Portland, Portland",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.345245,
+   "Longitude": 141.597761
+ },
+ {
+   "Location": "Gellibrand River, Princetown",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.712945,
+   "Longitude": 143.207082
+ },
+ {
+   "Location": "Torquay, Torquay",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.333333,
+   "Longitude": 144.316667
+ },
+ {
+   "Location": "Warrnambool, Warrnambool",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.368678,
+   "Longitude": 142.498209
+ },
+ {
+   "Location": "Bird Rock, Avalon",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.095833,
+   "Longitude": 144.433889
+ },
+ {
+   "Location": "Barwon River, Belmont",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.166151,
+   "Longitude": 144.349304
+ },
+ {
+   "Location": "Werribee, Cocoroc",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -37.968668,
+   "Longitude": 144.621501
+ },
+ {
+   "Location": "Inner Harbour, Corio",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.116667,
+   "Longitude": 144.433333
+ },
+ {
+   "Location": "Clifton Springs, Curlewis",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.151555,
+   "Longitude": 144.573861
+ },
+ {
+   "Location": "Western Shore, Geelong",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.14342,
+   "Longitude": 144.350541
+ },
+ {
+   "Location": "Indented Head, Indented Head",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.138056,
+   "Longitude": 144.71
+ },
+ {
+   "Location": "Curlewis Bank, Leopold",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.166667,
+   "Longitude": 144.491667
+ },
+ {
+   "Location": "Point Henry, Moolap",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.146846,
+   "Longitude": 144.430196
+ },
+ {
+   "Location": "Stingray Bay, Moolap",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.295833,
+   "Longitude": 144.400833
+ },
+ {
+   "Location": "Barwon River Estuary, Ocean Grove",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.261732,
+   "Longitude": 144.486791
+ },
+ {
+   "Location": "Lonsdale Bight, Point Lonsdale",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.283333,
+   "Longitude": 144.6
+ },
+ {
+   "Location": "Point Wilson, Point Wilson",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.042543,
+   "Longitude": 144.525522
+ },
+ {
+   "Location": "Portarlington, Portarlington",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.116667,
+   "Longitude": 144.65
+ },
+ {
+   "Location": "Queenscliff, Queenscliff",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.267775,
+   "Longitude": 144.62869
+ },
+ {
+   "Location": "St Leonards, St Leonards",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.174543,
+   "Longitude": 144.71642
+ },
+ {
+   "Location": "Swan Bay, Swan Bay",
+   "Fish": "Snapper, King George Whiting, Garfish, Salmon",
+   "Latitude": -38.228611,
+   "Longitude": 144.653611
+ }
+]

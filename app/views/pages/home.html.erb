@@ -1,0 +1,13 @@
+<h1>Welcome to Victoria's Fishing Spot</h1>
+<p>locate your nearest fishing spot .. </p>
+
+<% @search.each do |place| %>
+  <a href="/show/<%=place.id%>"><%=place['name']%></h3>
+<% end %>
+
+<% my_url = "http://maps.google.com/maps/api/staticmap?size=1000x850&sensor=false&zoom=6" %>
+<% @search.each do |coordinate| %>
+<% my_url += "&markers=#{coordinate['latitude']}%2C#{coordinate['longitude']}" %>
+<% end %>
+<% my_url += '&key=AIzaSyBn7aVoJ5DG6o1oYaDdc8XAsApqlAtHaTg' %>
+<%= image_tag my_url %>
