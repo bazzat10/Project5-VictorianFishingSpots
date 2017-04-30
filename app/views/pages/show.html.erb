@@ -10,7 +10,12 @@ $(document).ready(function(){
     //         lng: pos.lng
     //       }
     }).done(function(data){
-      console.log(data.weather);
+      console.log(data);
+      console.log(data.weather[0].description);
+      console.log(data.weather[0].main);
+
+      // console.log(data.weather.id);
+      // console.log(data.weather['main'])
     });
 
 
@@ -34,4 +39,9 @@ $(document).ready(function(){
 
 <%= form_tag '/', method: :get do %>
   <button> Main Page </button>
+<% end %>
+
+
+<%= form_tag '/test', method: :get do %>
+  <button> test </button>
 <% end %>

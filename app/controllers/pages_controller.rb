@@ -20,4 +20,8 @@ class PagesController < ApplicationController
     render :show
   end
 
+  def test
+
+    render :js => "/home"
+  end
 end
