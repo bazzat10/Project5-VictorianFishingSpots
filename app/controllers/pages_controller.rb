@@ -16,12 +16,18 @@ class PagesController < ApplicationController
   end
 
   def show
+
     @spot = Location.find(params[:id])
     render :show
   end
 
-  def test
+  def weather
 
-    render :js => "/home"
+    @description = params[:description]
+    @main = params[:main]
+    @current_temp = [:current_temp]
+    @max_temp = params[:max_temp]
+    @min_temp = params[:min_temp]
+
   end
 end

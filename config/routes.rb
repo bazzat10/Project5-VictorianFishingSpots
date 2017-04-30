@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 
   get '/show/:id', to: 'pages#show'
 
-  get '/test', to:'pages#test'
+  get '/weather/:id', to:'pages#weather'
+
 end

@@ -1,0 +1,93 @@
+location_id,location,fish,latitude,longitude
+,Melbourne (Region1),,,
+1,"St Kilda, St Kilda","Snapper, King George Whiting, Garfish, Salmon"," 	-37.864",144.982
+2,"Yarra River, Port Melbourne	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.823889",144.911111
+3,"Maribyrnong River, West Melbourne	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.81027",144.934473
+4,"Patterson River, Bonbeach	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.070348",145.128965
+5,"Carrum, Carrum	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.076007",145.12049
+6,"Altona to Williamstown, Altona	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.871206",144.830146
+,,,,
+,East Gippsland (Region2),,,
+7,"Bemm River, Bemm River	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.75901	",148.960612
+8,"Metung, Boole Poole	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.878873",147.858789
+9,"Mitchell River, East Bairnsdale	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.81807",147.622204
+10,"Maramingo Creek, Genoa	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.432356",149.630868
+11,"Gipsy Point, Gipsy Point	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.483599	",149.673809
+12,"Lake Victoria, Goon Nure	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.050139	",147.577321
+13,"Lake Tyers, Lake Tyers	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.834508	",148.119607
+14,"Mallacoota Inlet, Mallacoota	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.533333	",149.783333
+15,"Marlo, Marlo	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.75566	",148.5275
+16,"Nicholson River, Nicholson	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.795633	",147.752917
+17,"Lakes Entrance, Nyerimilang	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.878523	",147.925587
+18,"Tambo River, Swan Reach	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.823424	",147.862759
+19,"Tamboon Inlet, Tamboon	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.757773	",149.130009
+20,"Wallagaraugh River, Wallagaraugh	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.451632	",149.693012
+21,"Wingan Inlet, Wingan River	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.740234	",149.498563
+,,,,
+,Grampians & Central West (Region3),,,
+22,"Dimboola, Dimboola	","Snapper, King George Whiting, Garfish, Salmon"," 	-36.457243	",142.023225
+23,"Konong Wootong Reservoir, Konong Wootong	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.494508	",141.6505
+24,"Lake Bolac, Lake Bolac	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.709334	",142.837543
+25,"Lake Wartook, Zumsteins	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.080833	",142.4525
+26,"Goulburn River, Acheron	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.276808	",145.716026
+27,"Omeo Valley, Anglers Rest	","Snapper, King George Whiting, Garfish, Salmon"," 	-36.99557	",147.511508
+28,"Lake Guy, Bogong	","Snapper, King George Whiting, Garfish, Salmon"," 	-36.802421	",147.226113
+29,"Lake Buffalo, Buffalo	","Snapper, King George Whiting, Garfish, Salmon"," 	-36.727379	",146.664011
+30,"Lake Dartmouth, Dartmouth	","Snapper, King George Whiting, Garfish, Salmon"," 	-36.62543	",147.615575
+31,"Eildon Pondage, Eildon	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.229516	",145.919282
+32,"Lower Mitta Mitta, Eskdale	","Snapper, King George Whiting, Garfish, Salmon"," 	-36.475341	",147.350797
+33,"Falls Creek, Falls Creek	","Snapper, King George Whiting, Garfish, Salmon"," 	-36.865881	",147.28698
+34,"Lake Eildon, Lake Eildon	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.120044	",145.896887
+35,"Nariel Creek, Nariel Valley	","Snapper, King George Whiting, Garfish, Salmon"," 	-36.34145	",147.797897
+36,"Kiewa River, Running Creek	","Snapper, King George Whiting, Garfish, Salmon"," 	-36.531357	",147.047962
+37,"Rubicon River, Thornton	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.249979	",145.760829
+,,,,
+,Mornington Peninsula (Region4),,,
+38," Spots, Crib Point	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.372303	",145.225182
+39,"Elephant Triangle, French Island	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.348434	",145.364914
+40,"Middle Spit, French Island	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.39103	",145.390534
+41,"Mosquito Channel, French Island	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.375566	",145.371716
+42,"Portsea to Point Nepean, Portsea	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.313187	",144.695826
+,,,,
+,Phillip Island & Gippsland (Region5),,,
+43,"Corner Inlet, Foster	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.783333	",146.333333
+44,"Tarwin River, Middle Tarwin	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.679686	",145.924594
+45,"Port Albert, Port Albert	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.665278	",146.688333
+46,"Shallow Inlet, Sandy Point	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.816667	",146.166667
+47,"Cowes to Cat Bay, Ventnor	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.509442	",145.172509
+48,"Anderson Inlet, Venus Bay	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.652348	",145.785632
+49,"Venus Bay, Venus Bay	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.683333	",145.8
+,,,,
+,South-West Coast (Region6),,,
+50,"Anglesea, Anglesea	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.409664	",144.182517
+51,"Apollo Bay, Apollo Bay	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.75	",143.65
+52,"Lake Bullen Merri, Camperdown	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.244615	",143.105026
+53,"Aire River, Glenaire	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.779703	",143.469729
+54,"Lake Purrumbete, Koallah	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.282505	",143.23421
+55,"Lorne, Lorne	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.536656	",143.971548
+56,"Nelson, Nelson	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.05	",141.016667
+57,"Peterborough, Peterborough	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.581127	",142.861874
+58,"Port Fairy, Port Fairy	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.381012	",142.229291
+59,"Portland, Portland	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.345245	",141.597761
+60,"Gellibrand River, Princetown	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.712945	",143.207082
+61,"Torquay, Torquay	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.333333	",144.316667
+62,"Warrnambool, Warrnambool	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.368678	",142.498209
+,,,,
+,Werribee & Bellarine (Region7),,,
+63,"Bird Rock, Avalon	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.095833	",144.433889
+64,"Barwon River, Belmont	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.166151	",144.349304
+65,"Werribee, Cocoroc	","Snapper, King George Whiting, Garfish, Salmon"," 	-37.968668	",144.621501
+66,"Inner Harbour, Corio	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.116667	",144.433333
+67,"Clifton Springs, Curlewis	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.151555",144.573861
+68,"Western Shore, Geelong	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.14342	",144.350541
+69,"Indented Head, Indented Head	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.138056	",144.71
+70,"Curlewis Bank, Leopold	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.166667	",144.491667
+71,"Point Henry, Moolap	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.146846	",144.430196
+72,"Stingray Bay, Moolap	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.295833	",144.400833
+73,"Barwon River Estuary, Ocean Grove	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.261732	",144.486791
+74,"Lonsdale Bight, Point Lonsdale	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.283333	",144.6
+75,"Point Wilson, Point Wilson	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.042543",144.525522
+76,"Portarlington, Portarlington	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.116667",144.65
+77,"Queenscliff, Queenscliff	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.267775	",144.62869
+78,"St Leonards, St Leonards	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.174543	",144.71642
+79,"Swan Bay, Swan Bay	","Snapper, King George Whiting, Garfish, Salmon"," 	-38.228611	",144.653611

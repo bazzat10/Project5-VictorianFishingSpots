@@ -1,32 +1,8 @@
 <script type="text/javascript">
 
 
-$(document).ready(function(){
-
-  $.ajax({
-    url: 'http://api.openweathermap.org/data/2.5/weather?lat=-37.864&lon=144.982&APPID=e6b9f373890262fb5f87cd9362069823',
-    method: 'get'
-    // data: { lat: pos.lat,
-    //         lng: pos.lng
-    //       }
-    }).done(function(data){
-      console.log(data);
-      console.log(data.weather[0].description);
-      console.log(data.weather[0].main);
-
-      // console.log(data.weather.id);
-      // console.log(data.weather['main'])
-    });
-
-
-
-});
-
 </script>
 
-<div>Weather PIC</div>
-<div>DATE - TODAY</div>
-<div>Temperature</div>
 
 <h1><%=@spot.name%></h1>
 
@@ -41,7 +17,35 @@ $(document).ready(function(){
   <button> Main Page </button>
 <% end %>
 
+<%= form_tag '/weather/:id', method: :get do %>
 
-<%= form_tag '/test', method: :get do %>
-  <button> test </button>
+  <button class="show"> Check weather for this area </button>
 <% end %>
+
+<div class="container-graph">
+  <h2>Chart.js — Line Chart Demo</h2>
+  <div>
+    <canvas id="myChart"></canvas>
+  </div>
+</div>
+
+<script>
+var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ['M', 'T', 'W', 'T', 'F', 'S', 'S'],
+    datasets: [{
+      label: 'Tide ',
+      data: [12, 19, 3, 17, 6, 3, 7],
+      backgroundColor: "rgba(153,255,51,0.4)"
+    }
+    // , {
+    //   label: 'oranges',
+    //   data: [2, 29, 5, 5, 2, 3, 10],
+    //   backgroundColor: "rgba(255,153,0,0.4)"
+    // }
+  ]
+  }
+});
+</script>

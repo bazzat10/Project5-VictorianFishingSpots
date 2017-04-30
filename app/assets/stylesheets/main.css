@@ -1,8 +1,126 @@
 body {
-  background-color: mistyrose;
+  /*background-color: mistyrose;*/
+  background-image: url(/assets/background.jpg);
 }
 
-.container {
+.container-graph {
   width: 80%;
   margin: 15px auto;
 }
+
+.container {
+  display: flex;
+}
+
+li  {
+  list-style-type: none;
+}
+
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+
+}
+
+
+/*.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}*/
+
+/*.container {
+  display: grid;
+  grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
+  grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
+}*/
+
+/*
+.item-a{
+  grid-column-start: line3;
+  grid-column-end: col4-start;
+  grid-row-start: row1-end;
+  grid-row-end: line3;
+}
+
+.item-b {
+  grid-column-start: first;
+  grid-column-end: line3;
+  grid-row-start: row1-start;
+  grid-row-end: row1-end;
+}
+
+.item-c {
+  grid-column-start: line3;
+  grid-column-end: col4-start;
+  grid-row-start: row1-start;
+  grid-row-end: row1-end;
+}
+
+.item-d {
+  grid-column-start: col4-start;
+  grid-column-end: end;
+  grid-row-start: row1-start;
+  grid-row-end: row1-end;
+}
+
+.item-e {
+  grid-column-start: first;
+  grid-column-end: line3;
+  grid-row-start: third-line;
+  grid-row-end: last-line;
+}
+
+.item-f {
+  grid-column-start: line3;
+  grid-column-end: col4-start;
+  grid-row-start: third-line;
+  grid-row-end: last-line;
+}
+
+.item-g {
+  grid-column-start: col4-start;
+  grid-column-end: end;
+  grid-row-start: third-line;
+  grid-row-end: last-line;
+}*/
