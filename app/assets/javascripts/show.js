@@ -1,6 +1,6 @@
 
-$(".show").on("click", function(){
-
+$('.show').on("click", function(){
+  console.log('test');
   $.ajax({
     url: 'http://api.openweathermap.org/data/2.5/weather?lat=-37.864&lon=144.982&APPID=e6b9f373890262fb5f87cd9362069823',
     method: 'get'

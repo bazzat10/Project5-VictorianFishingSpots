@@ -1,7 +1,34 @@
 
-<div>Weather PIC</div>
-<div>DATE - TODAY</div>
-<<div><%=@main%></div>
-<div>Current Temp: <%=@current_temp%></div>
-<div>Max Temp: <%=@max_temp%> </div>
-<div>Min Temp: <%=@min_temp%></div>
+<div class="weather">
+  <div>Weather PIC</div>
+  <div>DATE - TODAY</div>
+
+  <label>Weather</label>
+  <div class='description'></div>
+  <div class='main'></div>
+  <label>Current Temp:</label>
+  <div class='current-temp'>current-temp</div>
+  <label>Max Temp:</label>
+  <div class='max-temp'>max-temp</div>
+  <label for="">Min Temp:</label>
+  <div class='min-temp'>min-temp</div>
+</div>
+
+<script>
+$(document).ready(function(){
+    console.log('javascript loading .... test');
+
+    $.ajax({
+      url: 'http://api.openweathermap.org/data/2.5/weather?lat=-37.864&lon=144.982&APPID=e6b9f373890262fb5f87cd9362069823',
+      method: 'get'
+      }).done(function(data){
+
+        document.querySelector(".description").innerHTML = data.weather[0].description;
+        document.querySelector(".main").innerHTML = data.weather[0].main;
+        document.querySelector(".current-temp").innerHTML = (data.main.temp - 273.15);
+        document.querySelector(".max-temp").innerHTML = (data.main.temp_max - 273.15);
+        document.querySelector(".min-temp").innerHTML = (data.main.temp_min - 273.15);
+
+      });
+});
+</script>

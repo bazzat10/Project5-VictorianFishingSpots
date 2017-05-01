@@ -3,7 +3,6 @@
 
 </script>
 
-
 <h1><%=@spot.name%></h1>
 
 <p>Type of fish: <%=@spot.fish%></p>
@@ -13,31 +12,62 @@
 <% my_url += '&key=AIzaSyBn7aVoJ5DG6o1oYaDdc8XAsApqlAtHaTg' %>
 <%= image_tag my_url %>
 
+<% id = @spot.id %>
 <%= form_tag '/', method: :get do %>
   <button> Main Page </button>
 <% end %>
 
-<%= form_tag '/weather/:id', method: :get do %>
+<div class="weather">
+  <div>Weather PIC</div>
+  <div>DATE - TODAY</div>
 
-  <button class="show"> Check weather for this area </button>
-<% end %>
+  <label>Weather</label>
+  <div class='description'></div>
+  <div class='main'></div>
+  <label>Current Temp:</label>
+  <div class='current-temp'>current-temp</div>
+  <label>Max Temp:</label>
+  <div class='max-temp'>max-temp</div>
+  <label for="">Min Temp:</label>
+  <div class='min-temp'>min-temp</div>
+</div>
 
 <div class="container-graph">
-  <h2>Chart.js — Line Chart Demo</h2>
+  <h2>Tide Times</h2>
   <div>
     <canvas id="myChart"></canvas>
   </div>
 </div>
 
 <script>
+$(document).ready(function(){
+    console.log('javascript loading .... test');
+
+    $.ajax({
+      url: 'http://api.openweathermap.org/data/2.5/weather?lat=-37.864&lon=144.982&APPID=e6b9f373890262fb5f87cd9362069823',
+      method: 'get'
+      }).done(function(data){
+
+        document.querySelector(".description").innerHTML = data.weather[0].description;
+        document.querySelector(".main").innerHTML = data.weather[0].main;
+        document.querySelector(".current-temp").innerHTML = (data.main.temp - 273.15);
+        document.querySelector(".max-temp").innerHTML = (data.main.temp_max - 273.15);
+        document.querySelector(".min-temp").innerHTML = (data.main.temp_min - 273.15);
+
+      });
+});
+</script>
+
+
+<script>
 var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ['M', 'T', 'W', 'T', 'F', 'S', 'S'],
+    labels: ['9am', '3pm','9pm'],
     datasets: [{
       label: 'Tide ',
-      data: [12, 19, 3, 17, 6, 3, 7],
+      data: [1.5,0.2,1.5],
       backgroundColor: "rgba(153,255,51,0.4)"
     }
     // , {
