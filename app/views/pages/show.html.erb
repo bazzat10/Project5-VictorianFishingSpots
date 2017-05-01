@@ -7,16 +7,6 @@
 
 <p>Type of fish: <%=@spot.fish%></p>
 
-<% my_url = "http://maps.google.com/maps/api/staticmap?size=1000x850&sensor=false&zoom=6" %>
-<% my_url += "&markers=#{@spot['latitude']}%2C#{@spot['longitude']}" %>
-<% my_url += '&key=AIzaSyBn7aVoJ5DG6o1oYaDdc8XAsApqlAtHaTg' %>
-<%= image_tag my_url %>
-
-<% id = @spot.id %>
-<%= form_tag '/', method: :get do %>
-  <button> Main Page </button>
-<% end %>
-
 <div class="weather">
   <div>Weather PIC</div>
   <div>DATE - TODAY</div>
@@ -32,6 +22,21 @@
   <div class='min-temp'>min-temp</div>
 </div>
 
+<label for="">test</label>
+<input class="lat-input" type="hidden" value="<%=@latitude%>">
+<input class="lng-input" type="hidden" value="<%=@longitude%>">
+
+
+<% my_url = "http://maps.google.com/maps/api/staticmap?size=1000x850&sensor=false&zoom=6" %>
+<% my_url += "&markers=#{@spot['latitude']}%2C#{@spot['longitude']}" %>
+<% my_url += '&key=AIzaSyBn7aVoJ5DG6o1oYaDdc8XAsApqlAtHaTg' %>
+<%= image_tag my_url %>
+
+<% id = @spot.id %>
+<%= form_tag '/', method: :get do %>
+  <button> Main Page </button>
+<% end %>
+
 <div class="container-graph">
   <h2>Tide Times</h2>
   <div>
@@ -42,9 +47,15 @@
 <script>
 $(document).ready(function(){
     console.log('javascript loading .... test');
+    var lat = document.querySelector(".lat-input").value;
+    var lng = document.querySelector(".lng-input").value;
+
+
+    console.log(lat);
+    console.log(lng);
 
     $.ajax({
-      url: 'http://api.openweathermap.org/data/2.5/weather?lat=-37.864&lon=144.982&APPID=e6b9f373890262fb5f87cd9362069823',
+      url: 'http://api.openweathermap.org/data/2.5/weather?lat='+ lat + '&lon=' + lng + '&APPID=e6b9f373890262fb5f87cd9362069823',
       method: 'get'
       }).done(function(data){
 

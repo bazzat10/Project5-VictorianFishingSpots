@@ -17,12 +17,9 @@ class PagesController < ApplicationController
 
   def show
     @spot = Location.find(params[:id])
+    @latitude = @spot.latitude
+    @longitude = @spot.longitude
     render :show
   end
 
-  def weather
-    locate = Location.find(params[:name])
-    byebug
-    render :weather
-  end
 end
