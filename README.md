@@ -15,9 +15,9 @@ The application has the aim of supporting fishing enthusiast to locate nearby fi
 4. Draw wireframes
 
 ## Wireframes
-![alt tag](/Users/Barry/wdi11/projects/Project5/victorian_fishing_spots/app/assets/images/wireframe1.png)
+![alt tag](https://github.com/bazzat10/Project5-VictorianFishingSpots/tree/master/app/assets/images/wireframe1.png)
 
-![alt tag](/Users/Barry/wdi11/projects/Project5/victorian_fishing_spots/app/assets/images/wireframe2.png)
+![alt tag](https://github.com/bazzat10/Project5-VictorianFishingSpots/tree/master/app/assets/images/wireframe2.png)
 
 
 ## Technologies Used
