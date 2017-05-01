@@ -21,7 +21,7 @@ The application has the aim of supporting fishing enthusiast to locate nearby fi
 
 
 ## Technologies Used
-```HTML5``` ```CSS3``` ````JavaScript``` ```jQuery``` ```Ruby``` ```Rails 5.0.2``` ```geocoder``` ```HTML5 geolocation``` ```POSTGREsql``` ```bootstrap``` ```chart.js```
+```HTML5``` ```CSS3``` ```JavaScript``` ```jQuery``` ```Ruby``` ```Rails 5.0.2``` ```geocoder``` ```HTML5 geolocation``` ```POSTGREsql``` ```bootstrap``` ```chart.js```
 
 #### Features:
 * google map
