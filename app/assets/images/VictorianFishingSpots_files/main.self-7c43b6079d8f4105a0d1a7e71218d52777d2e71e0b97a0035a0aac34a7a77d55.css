@@ -1,8 +1,9 @@
 body {
   background-color: rgb(101, 113, 61);
   max-width: 1106px;
-  min-width: 1106px;
 
+  /*background-image: url(/assets/background3.jpeg);
+  background-repeat: no-repeat;*/
 }
 
 .header {
@@ -65,17 +66,4 @@ div.tab button.active {
 
 img {
   padding-left: 50px;
-}
-
-.map-overview {
-  max-width: 1165px;
-}
-
-.overview {
-  font-weight: bold;
-}
-
-.things-to-do {
-  font-style: italic;
-  color: grey;
 }

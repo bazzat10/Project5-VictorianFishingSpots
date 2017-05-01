@@ -1,127 +1,193 @@
-<h1 class='heading'>Welcome to Victoria's Fishing Spot</h1>
-<p class='heading2'>locate your nearest fishing spot .. </p>
-
-<div class="">
-  <%=image_tag "pic1.png", class:"logo" %>
+<div class="header">
+  <h1 class='heading'>Welcome to Victoria's Fishing Spot</h1>
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'melbourne')">Melbourne</button>
+    <button class="tablinks" onclick="openCity(event, 'east_gippsland')">East Gippsland</button>
+    <button class="tablinks" onclick="openCity(event, 'grampians_central_west')">Grampians & Central West</button>
+    <button class="tablinks" onclick="openCity(event, 'mornington_peninsula')">Mornington Peninsula</button>
+    <button class="tablinks" onclick="openCity(event, 'phillip_island_gippsland')">Phillip Island and Gippsland</button>
+    <button class="tablinks" onclick="openCity(event, 'south_west_coast')">South-West Coast</button>
+    <button class="tablinks" onclick="openCity(event, 'werribee_bellarine')">Werribee & Bellarine</button>
+  </div>
 </div>
 
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'melbourne')">Melbourne</button>
-  <button class="tablinks" onclick="openCity(event, 'east_gippsland')">East Gippsland</button>
-  <button class="tablinks" onclick="openCity(event, 'grampians_central_west')">Grampians & Central West</button>
-  <button class="tablinks" onclick="openCity(event, 'mornington_peninsula')">Mornington Peninsula</button>
-  <button class="tablinks" onclick="openCity(event, 'phillip_island_gippsland')">Phillip Island and Gippsland</button>
-  <button class="tablinks" onclick="openCity(event, 'south_west_coast')">South-West Coast</button>
-  <button class="tablinks" onclick="openCity(event, 'werribee_bellarine')">Werribee & Bellarine</button>
+<div id="melbourne" class="tabcontent box a">
+  <h2>Melbourne</h2>
+  <% @search.each do |place| %>
+    <% if place.id >= 1 && place.id < 6 %>
+      <li>
+        <a href="/show/<%=place.id%>"><%=place['name']%></a>
+      </li>
+    <% end %>
+  <% end %>
 </div>
 
-<div class="container">
-  <div id="melbourne" class="tabcontent box a">
-    <h2>Melbourne</h2>
-    <% @search.each do |place| %>
-      <% if place.id >= 1 && place.id < 6 %>
-        <li>
-          <a href="/show/<%=place.id%>"><%=place['name']%></a>
-        </li>
-      <% end %>
+<div id="east_gippsland" class="tabcontent box b">
+  <h2>East Gippsland</h2>
+  <% @search.each do |place| %>
+    <% if place.id >= 7 && place.id < 22 %>
+      <li>
+        <a href="/show/<%=place.id%>"><%=place['name']%></a>
+      </li>
     <% end %>
-  </div>
+  <% end %>
+</div>
 
-  <div id="east_gippsland" class="tabcontent box b">
-    <h2>East Gippsland</h2>
-    <% @search.each do |place| %>
-      <% if place.id >= 7 && place.id < 22 %>
-        <li>
-          <a href="/show/<%=place.id%>"><%=place['name']%></a>
-        </li>
-      <% end %>
+<div id="grampians_central_west" class="tabcontent box c">
+  <h2>Grampians & Central West</h2>
+  <% @search.each do |place| %>
+    <% if place.id >= 22 && place.id < 38 %>
+      <li>
+        <a href="/show/<%=place.id%>"><%=place['name']%></a>
+      </li>
     <% end %>
-  </div>
+  <% end %>
+</div>
 
-  <div id="grampians_central_west" class="tabcontent box c">
-    <h2>Grampians & Central West</h2>
-    <% @search.each do |place| %>
-      <% if place.id >= 22 && place.id < 38 %>
-        <li>
-          <a href="/show/<%=place.id%>"><%=place['name']%></a>
-        </li>
-      <% end %>
+<div id="mornington_peninsula" class="tabcontent box d">
+  <h2>Mornington Peninsula</h2>
+  <% @search.each do |place| %>
+    <% if place.id >= 38 && place.id < 43 %>
+      <li>
+        <a href="/show/<%=place.id%>"><%=place['name']%></a>
+      </li>
     <% end %>
-  </div>
+  <% end %>
+</div>
 
-  <div id="mornington_peninsula" class="tabcontent box d">
-    <h2>Mornington Peninsula</h2>
-    <% @search.each do |place| %>
-      <% if place.id >= 38 && place.id < 43 %>
-        <li>
-          <a href="/show/<%=place.id%>"><%=place['name']%></a>
-        </li>
-      <% end %>
+<div id="phillip_island_gippsland" class="tabcontent box e">
+  <h2>Phillip Island and Gippsland</h2>
+  <% @search.each do |place| %>
+    <% if place.id >= 43 && place.id < 50 %>
+      <li>
+        <a href="/show/<%=place.id%>"><%=place['name']%></a>
+      </li>
     <% end %>
-  </div>
+  <% end %>
+</div>
 
-  <div id="phillip_island_gippsland" class="tabcontent box e">
-    <h2>Phillip Island and Gippsland</h2>
-    <% @search.each do |place| %>
-      <% if place.id >= 43 && place.id < 50 %>
-        <li>
-          <a href="/show/<%=place.id%>"><%=place['name']%></a>
-        </li>
-      <% end %>
+<div id="south_west_coast" class="tabcontent box f">
+  <h2>South-West Coast</h2>
+  <% @search.each do |place| %>
+    <% if place.id >= 50 && place.id < 63 %>
+      <li>
+        <a href="/show/<%=place.id%>"><%=place['name']%></a>
+      </li>
     <% end %>
-  </div>
+  <% end %>
+</div>
 
-  <div id="south_west_coast" class="tabcontent box f">
-    <h2>South-West Coast</h2>
-    <% @search.each do |place| %>
-      <% if place.id >= 50 && place.id < 63 %>
-        <li>
-          <a href="/show/<%=place.id%>"><%=place['name']%></a>
-        </li>
-      <% end %>
+<div id="werribee_bellarine" class="tabcontent box g">
+  <h2>Werribee & Bellarine</h2>
+  <% @search.each do |place| %>
+    <% if place.id >= 63 && place.id < 80 %>
+      <li>
+        <a href="/show/<%=place.id%>"><%=place['name']%></a>
+      </li>
     <% end %>
-  </div>
+  <% end %>
+</div>
 
-  <div id="werribee_bellarine" class="tabcontent box g">
-    <h2>Werribee & Bellarine</h2>
-    <% @search.each do |place| %>
-      <% if place.id >= 63 && place.id < 80 %>
-        <li>
-          <a href="/show/<%=place.id%>"><%=place['name']%></a>
-        </li>
-      <% end %>
-    <% end %>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div class="container">
+
+
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="item active">
+        <%=image_tag "background1.jpg", class:"logo" %>
+        <!-- <img src="images/background.jpg" alt="pic1" style="width:100%;"> -->
+      </div>
+
+      <div class="item">
+        <%=image_tag "background2.jpg", class:"logo" %>
+        <!-- <img src="images/background2.jpeg" alt="pic2" style="width:100%;"> -->
+      </div>
+
+      <div class="item">
+        <%=image_tag "background3.jpg", class:"logo" %>
+        <!-- <img src="images/background2.jpeg" alt="pic2" style="width:100%;"> -->
+      </div>
+
+      <div class="item">
+        <%=image_tag "background4.jpg", class:"logo" %>
+        <!-- <img src="images/background2.jpeg" alt="pic2" style="width:100%;"> -->
+      </div>
+
+      <div class="item">
+        <%=image_tag "background5.jpg", class:"logo" %>
+        <!-- <img src="images/background2.jpeg" alt="pic2" style="width:100%;"> -->
+      </div>
+
+      <div class="item">
+        <%=image_tag "background6.jpg", class:"logo" %>
+        <!-- <img src="images/background2.jpeg" alt="pic2" style="width:100%;"> -->
+      </div>
+
+      <div class="item">
+        <%=image_tag "background7.jpg", class:"logo" %>
+        <!-- <img src="images/background2.jpeg" alt="pic2" style="width:100%;"> -->
+      </div>
+
+    </div>
+
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
   </div>
 </div>
 
 <script>
 
 function openCity(evt, cityName) {
-    // Declare all variables
+
     var i, tabcontent, tablinks;
 
-    // Get all elements with class="tabcontent" and hide them
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
 
-    // Get all elements with class="tablinks" and remove the class "active"
     tablinks = document.getElementsByClassName("tablinks");
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
 
-    // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
 
 </script>
 
-<% my_url = "http://maps.google.com/maps/api/staticmap?size=1000x850&sensor=false&zoom=6" %>
+<% my_url = "http://maps.google.com/maps/api/staticmap?size=850x650&sensor=false&zoom=6" %>
 <% @search.each do |coordinate| %>
 <% my_url += "&markers=#{coordinate['latitude']}%2C#{coordinate['longitude']}" %>
 <% end %>
 <% my_url += '&key=AIzaSyBn7aVoJ5DG6o1oYaDdc8XAsApqlAtHaTg' %>
-<%= image_tag my_url %>
+
+<div class="map-overview">
+  <div class='text'>
+    <h2><span class='overview'>Overview </span><span class="things-to-do">Things To Do</span></h2>
+    <p>ajd;fklaldkfkaldjf;ajdfk;adfkja;kdfkajd;kadfka;kdfja;kdlfj;adfj;adkfjk;ajdfk;ladjfa;kldfja;kldfjak;ldfakdljak;ldjf;kladfkak;dfja;dklfjalkdf;kaldfj;kaldfjkak;dfjk;ladfj;kladfjkladfjk;lsadjfk;lsj
+    a;kldfadkfkadjf;kadfj;kldafkjfdk;adjkfk;adjfkvzjk;lvcjakjdvklzkjdakl;fjak;ldfjkadkf;jkaawiperipaugiovzcnvkl;jakjdfk;adfkjafd
+    ;kladjf;kladfjk;jadfk;dafkjaf;dafkjdafk;adkjf;ak;fdjvak;dfj;iwuedfj;dsajkadfs
+    j;ajfdiaoioekl;adfj;ioadu;keaj;iodf;anf;lkvuae;liuds;nda;lfjakfjkadupaiuejr;kldafuja;fd;kladfuanv;aerk;ladjfa;kfdurjaaf;kujvierja;dudfj
+    apfdja;kldfj;adfj;lkadfj;fdaj;kldajdfaudfj;af;jdfl;kaufd;jda;ljv</p>
+  </div>
+  <div class='map'>
+    <%= image_tag my_url %>
+  </div>
+
+</div>

@@ -8,10 +8,8 @@
 <p>Type of fish: <%=@spot.fish%></p>
 
 <div class="weather">
-  <div>Weather PIC</div>
-  <div>DATE - TODAY</div>
-
   <label>Weather</label>
+  <div class="date"></div>
   <div class='description'></div>
   <div class='main'></div>
   <label>Current Temp:</label>
@@ -22,7 +20,6 @@
   <div class='min-temp'>min-temp</div>
 </div>
 
-<label for="">test</label>
 <input class="lat-input" type="hidden" value="<%=@latitude%>">
 <input class="lng-input" type="hidden" value="<%=@longitude%>">
 
@@ -58,12 +55,14 @@ $(document).ready(function(){
       url: 'http://api.openweathermap.org/data/2.5/weather?lat='+ lat + '&lon=' + lng + '&APPID=e6b9f373890262fb5f87cd9362069823',
       method: 'get'
       }).done(function(data){
-
+        var currentdate = new Date();
+        console.log(data);
+        document.querySelector(".date").innerHTML = currentdate;
         document.querySelector(".description").innerHTML = data.weather[0].description;
         document.querySelector(".main").innerHTML = data.weather[0].main;
-        document.querySelector(".current-temp").innerHTML = (data.main.temp - 273.15);
-        document.querySelector(".max-temp").innerHTML = (data.main.temp_max - 273.15);
-        document.querySelector(".min-temp").innerHTML = (data.main.temp_min - 273.15);
+        document.querySelector(".current-temp").innerHTML = (data.main.temp - 273.15).toFixed(2);
+        document.querySelector(".max-temp").innerHTML = (data.main.temp_max - 273.15).toFixed(2);
+        document.querySelector(".min-temp").innerHTML = (data.main.temp_min - 273.15).toFixed(2);
 
       });
 });
