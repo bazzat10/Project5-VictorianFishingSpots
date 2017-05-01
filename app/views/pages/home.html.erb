@@ -1,5 +1,5 @@
 <div class="header">
-  <h1 class='heading'>Welcome to Victoria's Fishing Spot</h1>
+  <h1 class='heading'>Welcome to Victoria's Fishing Spots</h1>
   <div class="tab">
     <button class="tablinks" onclick="openCity(event, 'melbourne')">Melbourne</button>
     <button class="tablinks" onclick="openCity(event, 'east_gippsland')">East Gippsland</button>
@@ -101,37 +101,37 @@
 
     <div class="carousel-inner">
       <div class="item active">
-        <%=image_tag "background1.jpg", class:"logo" %>
+        <%=image_tag "background1.jpg" %>
         <!-- <img src="images/background.jpg" alt="pic1" style="width:100%;"> -->
       </div>
 
       <div class="item">
-        <%=image_tag "background2.jpg", class:"logo" %>
+        <%=image_tag "background2.jpg" %>
         <!-- <img src="images/background2.jpeg" alt="pic2" style="width:100%;"> -->
       </div>
 
       <div class="item">
-        <%=image_tag "background3.jpg", class:"logo" %>
+        <%=image_tag "background3.jpg" %>
         <!-- <img src="images/background2.jpeg" alt="pic2" style="width:100%;"> -->
       </div>
 
       <div class="item">
-        <%=image_tag "background4.jpg", class:"logo" %>
+        <%=image_tag "background4.jpg" %>
         <!-- <img src="images/background2.jpeg" alt="pic2" style="width:100%;"> -->
       </div>
 
       <div class="item">
-        <%=image_tag "background5.jpg", class:"logo" %>
+        <%=image_tag "background5.jpg" %>
         <!-- <img src="images/background2.jpeg" alt="pic2" style="width:100%;"> -->
       </div>
 
       <div class="item">
-        <%=image_tag "background6.jpg", class:"logo" %>
+        <%=image_tag "background6.jpg" %>
         <!-- <img src="images/background2.jpeg" alt="pic2" style="width:100%;"> -->
       </div>
 
       <div class="item">
-        <%=image_tag "background7.jpg", class:"logo" %>
+        <%=image_tag "background7.jpg" %>
         <!-- <img src="images/background2.jpeg" alt="pic2" style="width:100%;"> -->
       </div>
 
@@ -171,23 +171,22 @@ function openCity(evt, cityName) {
 
 </script>
 
-<% my_url = "http://maps.google.com/maps/api/staticmap?size=850x650&sensor=false&zoom=6" %>
+<% my_url = "http://maps.google.com/maps/api/staticmap?size=500x350&sensor=false&zoom=6" %>
 <% @search.each do |coordinate| %>
 <% my_url += "&markers=#{coordinate['latitude']}%2C#{coordinate['longitude']}" %>
 <% end %>
 <% my_url += '&key=AIzaSyBn7aVoJ5DG6o1oYaDdc8XAsApqlAtHaTg' %>
 
 <div class="map-overview">
-  <div class='text'>
+  <div class=>
     <h2><span class='overview'>Overview </span><span class="things-to-do">Things To Do</span></h2>
-    <p>ajd;fklaldkfkaldjf;ajdfk;adfkja;kdfkajd;kadfka;kdfja;kdlfj;adfj;adkfjk;ajdfk;ladjfa;kldfja;kldfjak;ldfakdljak;ldjf;kladfkak;dfja;dklfjalkdf;kaldfj;kaldfjkak;dfjk;ladfj;kladfjkladfjk;lsadjfk;lsj
-    a;kldfadkfkadjf;kadfj;kldafkjfdk;adjkfk;adjfkvzjk;lvcjakjdvklzkjdakl;fjak;ldfjkadkf;jkaawiperipaugiovzcnvkl;jakjdfk;adfkjafd
-    ;kladjf;kladfjk;jadfk;dafkjaf;dafkjdafk;adkjf;ak;fdjvak;dfj;iwuedfj;dsajkadfs
-    j;ajfdiaoioekl;adfj;ioadu;keaj;iodf;anf;lkvuae;liuds;nda;lfjakfjkadupaiuejr;kldafuja;fd;kladfuanv;aerk;ladjfa;kfdurjaaf;kujvierja;dudfj
-    apfdja;kldfj;adfj;lkadfj;fdaj;kldajdfaudfj;af;jdfl;kaufd;jda;ljv</p>
+    <p class="text">ajd;fklaldkfkaldjf;ajdfk;adfkja;kdfkajd;kadfka;kdfja;kdlfj;adfj;adkfjk;ajdfk;ladjfa;kldfja;kldfjak;ldfakdljak;ldjf;kladfkak;dfja;dklfjalkdf;kaldfj;kaldfjkak;dfjk;ladfj;kladfjkladfjk;lsadjfk;lsj
+    a;kldfadkfkadjf;kadfj;kak;dlj;kladfadkfadfjka;dlfka;'ldfk';adkfladf'l;kad'f;lad'lfkadf
+    ajd;fjafdkj
+    ldafkjfdk;adjkfk;adjfkvzjk;lvcjakjdvklzkjdakl;fjak;ldfjkadkf;jkaawiperipaugiovzcnvkl;jakjdfk;adfkjafd
+  </p>
   </div>
   <div class='map'>
     <%= image_tag my_url %>
   </div>
-
 </div>

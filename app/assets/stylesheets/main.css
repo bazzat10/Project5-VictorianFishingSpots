@@ -55,10 +55,6 @@ div.tab button.active {
     border-top: none;
 }
 
-.weather {
-  color: white;
-}
-
 .carousel {
   position: absolute;
 }
@@ -68,14 +64,40 @@ img {
 }
 
 .map-overview {
-  max-width: 1165px;
+  max-width: 1106px;
+  min-width: 1106px;
+  padding-top: 10px;
 }
 
-.overview {
+.overview .about {
   font-weight: bold;
+  display: inline-block;
 }
 
 .things-to-do {
   font-style: italic;
   color: grey;
+}
+
+.weather {
+  float: left;
+  width: 800px;
+}
+
+.weather-logo{
+  padding-bottom: 10px;
+}
+
+.map {
+  text-align: center;
+}
+
+
+.map-show {
+  float:left;
+  width: 45%;
+}
+p.text-show {
+  width: 45%;
+  word-wrap: break-word;
 }

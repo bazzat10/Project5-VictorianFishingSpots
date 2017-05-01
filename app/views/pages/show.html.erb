@@ -1,45 +1,56 @@
-<script type="text/javascript">
-
-
-</script>
-
 <h1><%=@spot.name%></h1>
 
-<p>Type of fish: <%=@spot.fish%></p>
+<marquee behavior="scroll" direction="left" class="date">HTML scrolling text... </marquee>
 
-<div class="weather">
-  <label>Weather</label>
-  <div class="date"></div>
-  <div class='description'></div>
-  <div class='main'></div>
-  <label>Current Temp:</label>
-  <div class='current-temp'>current-temp</div>
-  <label>Max Temp:</label>
-  <div class='max-temp'>max-temp</div>
-  <label for="">Min Temp:</label>
-  <div class='min-temp'>min-temp</div>
+<div class='weather-header'>
+
+  <div class="weather">
+    <label>Weather</label>
+    <!-- <div class="date"></div> -->
+    <div class='description'></div>
+    <!-- <div class='main'></div> -->
+    <label>Current Temp:</label>
+    <div class='current-temp'>current-temp</div>
+    <label>Max Temp:</label>
+    <div class='max-temp'>max-temp</div>
+    <label for="">Min Temp:</label>
+    <div class='min-temp'>min-temp</div>
+    <p>Type of fish: <%=@spot.fish%></p>
+  </div>
+
+  <%=image_tag "rainy_cloudy.png", class:"weather-logo" %>
+
+</div>
+
+<div class="fish-pics">
+  <%=image_tag "snapper.jpg", class:"fish" %>
+  <%=image_tag "garfish.jpg", class:"fish" %>
+  <%=image_tag "king_george_whiting.jpg", class:"fish" %>
 </div>
 
 <input class="lat-input" type="hidden" value="<%=@latitude%>">
 <input class="lng-input" type="hidden" value="<%=@longitude%>">
 
-
-<% my_url = "http://maps.google.com/maps/api/staticmap?size=1000x850&sensor=false&zoom=6" %>
+<% my_url = "http://maps.google.com/maps/api/staticmap?size=450x300&sensor=false&zoom=6" %>
 <% my_url += "&markers=#{@spot['latitude']}%2C#{@spot['longitude']}" %>
 <% my_url += '&key=AIzaSyBn7aVoJ5DG6o1oYaDdc8XAsApqlAtHaTg' %>
-<%= image_tag my_url %>
+<div class="map-about">
+  <%= image_tag my_url, class: 'map-show'%>
+  <p class="text-show"><span class='about'>About</span>ajd;fklaldkfkaldjf;ajdfk;adfkja;kdfkajd;kadfka;kdfja;kdlfj;adfj;adkfjk;ajdfk;ladjfa;kldfja;kldfjak;ldfakdljak;ldjf;kladfkak;dfja;dklfjalkdf;kaldfj;kaldfjkak;dfjk;ladfj;kladfjkladfjk;lsadjfk;lsj
+  a;kldfadkfkadjf;kadfj;kldafkjfdk;adjkfk;adjfkvzjk;lvcjakjdvklzkjdakl;fjak;ldfjkadkf;jkaawiperipaugiovzcnvkl;jakjdfk;adfkjafd</p>
+</div>
+
+
+<div class="container-graph">
+  <div>
+    <canvas id="myChart"></canvas>
+  </div>
+</div>
 
 <% id = @spot.id %>
 <%= form_tag '/', method: :get do %>
   <button> Main Page </button>
 <% end %>
-
-<div class="container-graph">
-  <h2>Tide Times</h2>
-  <div>
-    <canvas id="myChart"></canvas>
-  </div>
-</div>
 
 <script>
 $(document).ready(function(){
@@ -59,7 +70,7 @@ $(document).ready(function(){
         console.log(data);
         document.querySelector(".date").innerHTML = currentdate;
         document.querySelector(".description").innerHTML = data.weather[0].description;
-        document.querySelector(".main").innerHTML = data.weather[0].main;
+        // document.querySelector(".main").innerHTML = data.weather[0].main;
         document.querySelector(".current-temp").innerHTML = (data.main.temp - 273.15).toFixed(2);
         document.querySelector(".max-temp").innerHTML = (data.main.temp_max - 273.15).toFixed(2);
         document.querySelector(".min-temp").innerHTML = (data.main.temp_min - 273.15).toFixed(2);
@@ -76,7 +87,7 @@ var myChart = new Chart(ctx, {
   data: {
     labels: ['9am', '3pm','9pm'],
     datasets: [{
-      label: 'Tide ',
+      label: 'Tide Times',
       data: [1.5,0.2,1.5],
       backgroundColor: "rgba(153,255,51,0.4)"
     }
