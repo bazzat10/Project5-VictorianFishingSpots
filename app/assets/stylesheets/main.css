@@ -95,9 +95,19 @@ img {
 
 .map-show {
   float:left;
-  width: 45%;
+  width: 550px;
 }
+
 p.text-show {
-  width: 45%;
+  padding-left: 50px;
+  float: left;
+  width: 500px;
   word-wrap: break-word;
+}
+
+.about {
+  font-weight: bold;
+  font-style: italic;
+  color: grey;
+  font-size: 3em;
 }
